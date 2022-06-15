@@ -1,20 +1,22 @@
 ## Technologies used
 
-1. Nextjs
-2. TypeScript
-3. TailWindCSS
-4. ESLint
-5. Prettier
-6. Husky
-7. Link Staged
-8. Docker
-9. Docker Compose
-10. GitLab CI
-11. NGINX
+1. NextJS
+2. ReactJS
+3. TypeScript
+4. TailWindCSS
+5. ESLint
+6. Prettier
+7. Husky
+8. Link Staged
+9. Docker
+10. Docker Compose
+11. GitLab CI
+12. NGINX
 
 ## Run on development with Hot Reload
 
-docker-compose up -d --build
+1. Install Docker -> https://www.docker.com/
+2. docker-compose up -d --build
 
 ## Run on production
 
@@ -26,9 +28,9 @@ docker-compose up -d --build
 
 ## NextJS Default README
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Getting Started with NextJS
 
-## Getting Started
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
