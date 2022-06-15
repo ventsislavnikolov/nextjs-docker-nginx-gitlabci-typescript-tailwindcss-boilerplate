@@ -1,0 +1,23 @@
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+build:
+    stage: deploy
+    services:
+        - name: docker:20.10.11-dind
+    image: docker:20.10.11-dind
+    before_script:
+        - docker version
+    only:
+        - main
+    tags:
+        - bachiyski
+    script:
+        - docker build -t bachiyski -f Dockerfile.production .
+        - docker rm -f $(docker ps -a -q)
+        - docker run -d -p 80:80 bachiyski
