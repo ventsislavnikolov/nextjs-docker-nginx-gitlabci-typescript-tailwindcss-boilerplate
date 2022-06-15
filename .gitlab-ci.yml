@@ -16,8 +16,8 @@ build:
     only:
         - main
     tags:
-        - bachiyski
+        - nextjs-boilerplate
     script:
-        - docker build -t bachiyski -f Dockerfile.production .
+        - docker build -t nextjs-boilerplate -f Dockerfile.production .
         - docker rm -f $(docker ps -a -q)
-        - docker run -d -p 80:80 bachiyski
+        - docker run -d -p 80:80 nextjs-boilerplate

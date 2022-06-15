@@ -1,3 +1,31 @@
+## Technologies used
+
+1. Nextjs
+2. TypeScript
+3. TailWindCSS
+4. ESLint
+5. Prettier
+6. Husky
+7. Link Staged
+8. Docker
+9. Docker Compose
+10. GitLab CI
+11. NGINX
+
+## Run on development with Hot Reload
+
+docker-compose up -d --build
+
+## Run on production
+
+1. You need to setup a VPS/Ubuntu host.
+2. You need to setup a Gitlab Repository.
+3. You need to setup a Gitlab Runner.
+4. You need to push to the Gitlab Repository.
+5. Open the VPS IP.
+
+## NextJS Default README
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
